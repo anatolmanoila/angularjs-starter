@@ -1,0 +1,25 @@
+{
+  "name": "angularjs-starter",
+  "version": "0.0.0",
+  "authors": [
+    "aema"
+  ],
+  "description": "practice",
+  "main": "app.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angularjs": "~1.3.3",
+    "angular-route": "~1.3.3"
+  }
+}
