@@ -1,10 +1,15 @@
 (function () {
   "use strict";
 
-  angular.module('app')
+  angular.module('MyApp')
     .controller('HomeCtrl', ['$scope', function ($scope) {
 
-				$scope.test = "Hey !";
+		$scope.title = "Hey, welcome to HomePage !";
+		$scope.description = function() {
+			return  'this is my homepage, returned from fn';
+		}
+
+
 
     }]);
 })();
